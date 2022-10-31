@@ -11,12 +11,12 @@ public class Main {
         System.out.println(persona.getPhone());
 }
 }
-
+/* Creacion de Clase Persona y Variables Privadas*/
 class Persona{
     private String name;
     private String age;
     private String phone;
-
+/* Creacion de SET de variables */
     public void setName(String name) {
         this.name = name;
     }
@@ -26,7 +26,7 @@ class Persona{
     public void setPhone(String phone) {
         this.phone = phone;
     }
-
+/* Creacion de GET de Variables */
     public String getName () {
         return this.name;
     }
